@@ -1,0 +1,54 @@
+import {StyleSheet} from 'react-native'
+import styles from '../../../styles/styles'
+export default StyleSheet.create({
+  container:{
+    flex:1,
+    backgroundColor:styles.skyBlue,
+  },
+  header:{
+    justifyContent:'center',
+    alignItems:'center',
+  },
+  userInfo:{
+    marginTop:20,
+    fontSize:30,
+
+    color:styles.darkGreen,
+  },
+  seperator:{
+    marginTop:13,
+    backgroundColor:styles.darkGreen,
+    height:1.4,
+    width:330,
+  },
+  informationArea:{
+    marginTop:20,
+    justifyContent:'center',
+    padding:5,
+    alignItems:'center',
+  },
+  informationText:{
+    fontSize:17,
+    color:styles.black,
+    margin:10,
+  },
+  gender:{
+    alignSelf:'center',
+    width:300,
+    marginTop:30,
+    justifyContent:'space-around',
+    alignItems:'center',
+    flexDirection:'row',
+  },
+  inputArea:{
+    marginTop:40,
+    flexDirection:'row',
+    alignItems:'center',
+    justifyContent:'space-around',
+  },
+  buttonArea:{
+    marginTop:40,
+    justifyContent:'space-around',
+    flexDirection:'row',
+  }
+})
